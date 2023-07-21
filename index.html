@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penguin Fashion- tailwindcss intro</title>
+
+  <!-- Import google fonts 'Roboto' 'Bebas' & 'Montserrat'-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Roboto:wght@400;500;900&display=swap"
+    rel="stylesheet">
+  <!-- CDN for tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .font-bebas {
+      font-family: 'Bebas Neue', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bg-orange-50 px-36">
+    <!-- Navbar starts -->
+    <nav class="flex py-9 justify-between">
+      <!-- nav logo part-->
+      <img class="w-60" src="icons/logo.png" alt="logo">
+      <!-- nav anchor part -->
+      <ul class="flex gap-7">
+        <li><a href="">Home</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">Contact us</a></li>
+      </ul>
+    </nav>
+    <!-- Header navbar ends -->
+
+    <!-- Header banner starts-->
+
+    <div class="flex text-left items-center ">
+
+      <div class="w-6/12 flex-col space-y-5">
+        <h1 class="uppercase text-7xl text- font-bebas text-[#363958]">
+          <span class="font-bebas text-[#FABE4C]">
+            Be the Penguins
+          </span><br>
+          of Winter
+        </h1>
+        <p>Lorem Ipsum is simply dummy text of the printing <br>
+          and typesetting industry.</p>
+        <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-lg px-8 py-3 flex items-center gap-4">
+          <img class="w-6" src="icons/shopping-cart 1.png" alt="">
+          <span class="text-white"> BUY NOW </span>
+        </button>
+      </div>
+
+      <div class="w-6/12">
+        <img class="w-full" src="images/model.png" alt="Model">
+      </div>
+
+    </div>
+    <!-- Banner ends -->
+  </header>
+
+  <main>
+    <!-- woman jacket section starts -->
+    <section>
+      <h2>WoMan Jacket</h2>
+      <!-- 01 Jacket card Starts -->
+      <div>
+        <img class="" src="images/jacket-1.png" alt="jacket">
+        <h4>Yellow Coat Jacket</h4>
+        <p>Lorem Ipsum is simply dummy text of the
+          printing and typesetting industry.</p>
+        <div>
+          <span>$234</span>
+          <button></button>
+        </div>
+      </div>
+      <!-- 01 Jacket card Ends -->
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
